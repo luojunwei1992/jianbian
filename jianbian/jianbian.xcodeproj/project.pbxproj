@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F595F2FF1CEB1602000BDE3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F595F2FE1CEB1602000BDE3A /* main.m */; };
+		F595F3021CEB1602000BDE3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F595F3011CEB1602000BDE3A /* AppDelegate.m */; };
+		F595F3051CEB1602000BDE3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F595F3041CEB1602000BDE3A /* ViewController.m */; };
+		F595F30A1CEB1602000BDE3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595F3091CEB1602000BDE3A /* Assets.xcassets */; };
+		F595F30D1CEB1602000BDE3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595F30B1CEB1602000BDE3A /* LaunchScreen.storyboard */; };
+		F595F3181CEB1602000BDE3A /* jianbianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595F3171CEB1602000BDE3A /* jianbianTests.m */; };
+		F595F3231CEB1602000BDE3A /* jianbianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F595F3221CEB1602000BDE3A /* jianbianUITests.m */; };
+		F595F3321CEB18AF000BDE3A /* UINavigationBar+common.m in Sources */ = {isa = PBXBuildFile; fileRef = F595F3311CEB18AF000BDE3A /* UINavigationBar+common.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F595F3141CEB1602000BDE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F595F2F21CEB1602000BDE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F595F2F91CEB1602000BDE3A;
+			remoteInfo = jianbian;
+		};
+		F595F31F1CEB1602000BDE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F595F2F21CEB1602000BDE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F595F2F91CEB1602000BDE3A;
+			remoteInfo = jianbian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F595F2FA1CEB1602000BDE3A /* jianbian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jianbian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595F2FE1CEB1602000BDE3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F595F3001CEB1602000BDE3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F595F3011CEB1602000BDE3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F595F3031CEB1602000BDE3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F595F3041CEB1602000BDE3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F595F3091CEB1602000BDE3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F595F30C1CEB1602000BDE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F595F30E1CEB1602000BDE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595F3131CEB1602000BDE3A /* jianbianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jianbianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595F3171CEB1602000BDE3A /* jianbianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jianbianTests.m; sourceTree = "<group>"; };
+		F595F3191CEB1602000BDE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595F31E1CEB1602000BDE3A /* jianbianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jianbianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F595F3221CEB1602000BDE3A /* jianbianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jianbianUITests.m; sourceTree = "<group>"; };
+		F595F3241CEB1602000BDE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595F3301CEB18AF000BDE3A /* UINavigationBar+common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+common.h"; sourceTree = "<group>"; };
+		F595F3311CEB18AF000BDE3A /* UINavigationBar+common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+common.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F595F2F71CEB1602000BDE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595F3101CEB1602000BDE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595F31B1CEB1602000BDE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F595F2F11CEB1602000BDE3A = {
+			isa = PBXGroup;
+			children = (
+				F595F2FC1CEB1602000BDE3A /* jianbian */,
+				F595F3161CEB1602000BDE3A /* jianbianTests */,
+				F595F3211CEB1602000BDE3A /* jianbianUITests */,
+				F595F2FB1CEB1602000BDE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F595F2FB1CEB1602000BDE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F595F2FA1CEB1602000BDE3A /* jianbian.app */,
+				F595F3131CEB1602000BDE3A /* jianbianTests.xctest */,
+				F595F31E1CEB1602000BDE3A /* jianbianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F595F2FC1CEB1602000BDE3A /* jianbian */ = {
+			isa = PBXGroup;
+			children = (
+				F595F3001CEB1602000BDE3A /* AppDelegate.h */,
+				F595F3011CEB1602000BDE3A /* AppDelegate.m */,
+				F595F3031CEB1602000BDE3A /* ViewController.h */,
+				F595F3041CEB1602000BDE3A /* ViewController.m */,
+				F595F3301CEB18AF000BDE3A /* UINavigationBar+common.h */,
+				F595F3311CEB18AF000BDE3A /* UINavigationBar+common.m */,
+				F595F3091CEB1602000BDE3A /* Assets.xcassets */,
+				F595F30B1CEB1602000BDE3A /* LaunchScreen.storyboard */,
+				F595F30E1CEB1602000BDE3A /* Info.plist */,
+				F595F2FD1CEB1602000BDE3A /* Supporting Files */,
+			);
+			path = jianbian;
+			sourceTree = "<group>";
+		};
+		F595F2FD1CEB1602000BDE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F595F2FE1CEB1602000BDE3A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F595F3161CEB1602000BDE3A /* jianbianTests */ = {
+			isa = PBXGroup;
+			children = (
+				F595F3171CEB1602000BDE3A /* jianbianTests.m */,
+				F595F3191CEB1602000BDE3A /* Info.plist */,
+			);
+			path = jianbianTests;
+			sourceTree = "<group>";
+		};
+		F595F3211CEB1602000BDE3A /* jianbianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F595F3221CEB1602000BDE3A /* jianbianUITests.m */,
+				F595F3241CEB1602000BDE3A /* Info.plist */,
+			);
+			path = jianbianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F595F2F91CEB1602000BDE3A /* jianbian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595F3271CEB1603000BDE3A /* Build configuration list for PBXNativeTarget "jianbian" */;
+			buildPhases = (
+				F595F2F61CEB1602000BDE3A /* Sources */,
+				F595F2F71CEB1602000BDE3A /* Frameworks */,
+				F595F2F81CEB1602000BDE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jianbian;
+			productName = jianbian;
+			productReference = F595F2FA1CEB1602000BDE3A /* jianbian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F595F3121CEB1602000BDE3A /* jianbianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595F32A1CEB1603000BDE3A /* Build configuration list for PBXNativeTarget "jianbianTests" */;
+			buildPhases = (
+				F595F30F1CEB1602000BDE3A /* Sources */,
+				F595F3101CEB1602000BDE3A /* Frameworks */,
+				F595F3111CEB1602000BDE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F595F3151CEB1602000BDE3A /* PBXTargetDependency */,
+			);
+			name = jianbianTests;
+			productName = jianbianTests;
+			productReference = F595F3131CEB1602000BDE3A /* jianbianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F595F31D1CEB1602000BDE3A /* jianbianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F595F32D1CEB1603000BDE3A /* Build configuration list for PBXNativeTarget "jianbianUITests" */;
+			buildPhases = (
+				F595F31A1CEB1602000BDE3A /* Sources */,
+				F595F31B1CEB1602000BDE3A /* Frameworks */,
+				F595F31C1CEB1602000BDE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F595F3201CEB1602000BDE3A /* PBXTargetDependency */,
+			);
+			name = jianbianUITests;
+			productName = jianbianUITests;
+			productReference = F595F31E1CEB1602000BDE3A /* jianbianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F595F2F21CEB1602000BDE3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lj;
+				TargetAttributes = {
+					F595F2F91CEB1602000BDE3A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F595F3121CEB1602000BDE3A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F595F2F91CEB1602000BDE3A;
+					};
+					F595F31D1CEB1602000BDE3A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F595F2F91CEB1602000BDE3A;
+					};
+				};
+			};
+			buildConfigurationList = F595F2F51CEB1602000BDE3A /* Build configuration list for PBXProject "jianbian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F595F2F11CEB1602000BDE3A;
+			productRefGroup = F595F2FB1CEB1602000BDE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F595F2F91CEB1602000BDE3A /* jianbian */,
+				F595F3121CEB1602000BDE3A /* jianbianTests */,
+				F595F31D1CEB1602000BDE3A /* jianbianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F595F2F81CEB1602000BDE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595F30D1CEB1602000BDE3A /* LaunchScreen.storyboard in Resources */,
+				F595F30A1CEB1602000BDE3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595F3111CEB1602000BDE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595F31C1CEB1602000BDE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F595F2F61CEB1602000BDE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595F3051CEB1602000BDE3A /* ViewController.m in Sources */,
+				F595F3021CEB1602000BDE3A /* AppDelegate.m in Sources */,
+				F595F3321CEB18AF000BDE3A /* UINavigationBar+common.m in Sources */,
+				F595F2FF1CEB1602000BDE3A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595F30F1CEB1602000BDE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595F3181CEB1602000BDE3A /* jianbianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F595F31A1CEB1602000BDE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595F3231CEB1602000BDE3A /* jianbianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F595F3151CEB1602000BDE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F595F2F91CEB1602000BDE3A /* jianbian */;
+			targetProxy = F595F3141CEB1602000BDE3A /* PBXContainerItemProxy */;
+		};
+		F595F3201CEB1602000BDE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F595F2F91CEB1602000BDE3A /* jianbian */;
+			targetProxy = F595F31F1CEB1602000BDE3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F595F30B1CEB1602000BDE3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F595F30C1CEB1602000BDE3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F595F3251CEB1603000BDE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F595F3261CEB1603000BDE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F595F3281CEB1603000BDE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jianbian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F595F3291CEB1603000BDE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jianbian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F595F32B1CEB1603000BDE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jianbianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianbian.app/jianbian";
+			};
+			name = Debug;
+		};
+		F595F32C1CEB1603000BDE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jianbianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jianbian.app/jianbian";
+			};
+			name = Release;
+		};
+		F595F32E1CEB1603000BDE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jianbianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jianbian;
+			};
+			name = Debug;
+		};
+		F595F32F1CEB1603000BDE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = jianbianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lj.jianbianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jianbian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F595F2F51CEB1602000BDE3A /* Build configuration list for PBXProject "jianbian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595F3251CEB1603000BDE3A /* Debug */,
+				F595F3261CEB1603000BDE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F595F3271CEB1603000BDE3A /* Build configuration list for PBXNativeTarget "jianbian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595F3281CEB1603000BDE3A /* Debug */,
+				F595F3291CEB1603000BDE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F595F32A1CEB1603000BDE3A /* Build configuration list for PBXNativeTarget "jianbianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595F32B1CEB1603000BDE3A /* Debug */,
+				F595F32C1CEB1603000BDE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F595F32D1CEB1603000BDE3A /* Build configuration list for PBXNativeTarget "jianbianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F595F32E1CEB1603000BDE3A /* Debug */,
+				F595F32F1CEB1603000BDE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F595F2F21CEB1602000BDE3A /* Project object */;
+}
