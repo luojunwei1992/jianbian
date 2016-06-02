@@ -20,6 +20,8 @@
     
     self.navigationController.navigationBar.shadowImage = [UIImage new];
     
+    
+    
     self.navigationItem.title = @"zhuye";
     
     
